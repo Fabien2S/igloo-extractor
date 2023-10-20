@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "igloo-extractor",
+	"version": "${version}",
+	"name": "Igloo Extractor",
+	"description": "A Minecraft mod which export additional data, used by Igloo.",
+	"authors": [
+		"Fabien2S"
+	],
+	"contact": {
+		"homepage": "https://fabien2s.dev/igloo/",
+		"sources": "https://github.com/Fabien2S/igloo-extractor"
+	},
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"fabric-datagen": [
+			"dev.fabien2s.igloo_extractor.IglooExtractorDataGenerator"
+		]
+	},
+	"mixins": [
+		"igloo-extractor.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}

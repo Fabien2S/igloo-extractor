@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "dev.fabien2s.igloo_extractor.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"EntityTypeAccessor",
+		"FeatureFlagSetAccessor"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
